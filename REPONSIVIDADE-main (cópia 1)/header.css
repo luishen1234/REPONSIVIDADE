@@ -5,9 +5,7 @@
     background-image: url("img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
-}
-.cabeçalho {
-    background-color: var(--branco);
+
 }
 .cabeçalho {
     background-color: var(--branco);
@@ -33,13 +31,14 @@
     display: block;
   }
   .lista-menu__titulo {
-  color: var(--laranja);
+  color: var(--laranja) ;
 
 }
-
+.lista-menu__titulo,
 .lista-menu__item {
   padding: 1em;
   background-color: var(--branco);
+  color: var(--laranja);
   
 }
 .lista-menu__link {
